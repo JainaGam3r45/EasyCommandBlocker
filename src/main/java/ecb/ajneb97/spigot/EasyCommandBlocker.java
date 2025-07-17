@@ -79,6 +79,9 @@ public class EasyCommandBlocker extends JavaPlugin {
             case "1.21.7":
                 serverVersion = ServerVersion.v1_21_R5;
                 break;
+            case "1.21.8":
+                serverVersion = ServerVersion.v1_21_R6;
+                break;
             default:
                 try{
                     serverVersion = ServerVersion.valueOf(packageName.replace("org.bukkit.craftbukkit.", ""));
